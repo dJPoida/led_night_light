@@ -5,7 +5,7 @@ Checkout INSERT YOUTUBE LINK HERE for the full story
 
 ![Finished Night Lights](img/finished.jpg "Finished Night Lights")
 
-Max current draw 200mA
+Max measured current draw ~300mA
 
 ## Modes
   - Mode 1: Solid colour (all LEDs the same colour)

@@ -1,9 +1,16 @@
 # LED Night Light
 3d Printed Night Light using an Arduino Nano, two buttons and a short ws2812 LED strip
 
-Checkout <INSERT YOUTUBE LINK HERE> for the full story
+Checkout INSERT YOUTUBE LINK HERE for the full story
 
 ![Finished Night Lights](img/finished.jpg "Finished Night Lights")
+
+Max current draw 200mA
+
+## Modes
+  - Mode 1: Solid colour (all LEDs the same colour)
+  - Mode 2: Complementary colour (two complementary colours)
+  - Mode 3: Waterfall (two complementary colours in a waterfall animation)
 
 ## Parts List
 - 3d printed figurine (STLs not included)

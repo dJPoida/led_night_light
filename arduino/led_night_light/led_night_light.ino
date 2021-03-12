@@ -184,20 +184,20 @@ void setup() {
  */
 void loop() { 
   // Look for and respond to button presses
-  checkButtons(currentMillis);
+  checkButtons();
 
   // Update any phase that may be required for the current mode
-  updatePhase(currentMillis);
+  updatePhase();
 
   // Update the LED strip values based on current state data
-  updateLEDs(currentMillis);
+  updateLEDs();
 }
 
 
 /**
  * Check and register button state changes
  */
-void checkButtons(unsigned long currentMillis) {
+void checkButtons() {
   // Read the current time that the device has been running (in milliseconds)
   unsigned long currentMillis = millis();
 
@@ -351,7 +351,7 @@ void incBrightness() {
 void cycleMode() {
   byte newMode = currentMode + 1;
     if (newMode >= MODECOUNT) {
-    newModedex = 0;
+    newMode = 0;
   }
   currentMode = newMode;
 

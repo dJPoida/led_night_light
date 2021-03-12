@@ -18,3 +18,5 @@ Checkout <INSERT YOUTUBE LINK HERE> for the full story
 - Red, white & black solid core jumper wire
 
 ![Circuit Design](designs/circuit_design_bb.png)
+
+![Open](img/open.jpg)
